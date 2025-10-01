@@ -1,8 +1,7 @@
 # nDictionary
 
 A compressed dictionary application for the TI-Nspire calculator using Ndless. This project provides a complete offline dictionary with efficient storage using Huffman compression.
-
-## Project Structure
+(Also, this was partially vibe-coded)
 
 
 ## Prerequisites

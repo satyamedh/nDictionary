@@ -49,6 +49,7 @@ int main(void) {
 
 
     printMessage("nDictionary - TI-Nspire Dictionary Lookup");
+    printMessage("Created by Satyamedh Hulyalkar | https://github.com/satyamedh");
     printMessage("========================================");
 
     Dictionary dict;
@@ -83,13 +84,10 @@ int main(void) {
         printf("\nWord: %s\n", word.c_str());
         printMessage("==================");
         printMeanings(meanings);
-
-        printMessage("\nPress any key to continue...");
-        wait_key_pressed();
     }
 
     dict.cleanup();
-    printMessage("Thank you for using nDictionary!");
+    printMessage("Thank you for using nDictionary! Press any key to exit...");
     wait_key_pressed();
     return 0;
 }
