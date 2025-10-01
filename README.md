@@ -116,17 +116,15 @@ Ensure you have the Ndless SDK properly installed and in your PATH:
 which nspire-gcc  # Should return a path
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test on actual TI-Nspire hardware
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-
-
+## TODO:
+- [ ] add a lua-based GUI
+- [ ] use LZ-based compression instead of Huffman
+- [ ] store the index file, huffman file and dictionary file together
+- [ ] allow the words' files to be stored in a subfolder alongside the app file
+- [ ] add more words, and come up with a better way to filter duplicate words than *pick the longest definition*
+- [ ] Don't load the entire index file into memory, instead use a binary search on the file directly? 
+- [ ] multi-threading for building the dictionary
